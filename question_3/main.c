@@ -4,7 +4,7 @@ int factorial(int n);
 int power(int base, int exp);
 void printSeparator();
 
-// Recursive function to calculate Fibonacci number
+// recursive function to calculate Fibonacci number
 int factorial(int n) {
     if (n == 0 || n == 1) {  // Base case
         return 1;
@@ -12,7 +12,7 @@ int factorial(int n) {
     return n * factorial(n - 1);  // Recursive call
 }
 
-// Reusable function to print separator
+// reusable function to print separator
 void printSeparator() {
     puts("================================");
 }
@@ -29,9 +29,9 @@ int power(int base, int exp) {
 int main() {
     int number, choice;
 
-    printSeparator();  // Function reuse
+    printSeparator();
     puts("math functions");
-    printSeparator();  // Function reuse
+    printSeparator();
 
     printf("\n1. calculate factorial\n2. calculate power\n");
     printf("Enter choice: ");
@@ -61,7 +61,7 @@ int main() {
             puts("invalid choice!");
     }
 
-    printSeparator();  // Function reuse
+    printSeparator();
 
     return 0;
 }
