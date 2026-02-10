@@ -1,0 +1,5 @@
+~/Documents/c_programming/proj_1_assgmnt/question_1 git:[main]
+./main
+temp converter
+enter temp in celsius: 12
+12.00 degrees Celsius = 53.60 degrees Fahrenheit
