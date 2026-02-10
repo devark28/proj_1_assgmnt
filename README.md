@@ -8,3 +8,9 @@ the program prompts the user to enter two numbers and an operator, performs the 
 ## Question 3:
 q3's program calculates the factorial of a given number or the power of a given base to the given exponent. It demonstrated function reuse and function recursion with factorial.
 the program prompts the user to choose between calculating a factorial or a power, then takes the necessary inputs.
+## Question 4:
+Video: https://youtu.be/OS9I9BOroSo
+Pseudo Code link: https://github.com/devark28/proj_1_assgmnt/blob/main/question_4/pseudo.txt
+Explanation: the code reads the temperature converts to celcius, checks if it’s
+greater than 28 and turns on the led else it turns of the led, and continues this
+sequence in a loop again. Detailed explanation in the video.
