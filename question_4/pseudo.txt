@@ -1,0 +1,19 @@
+FUNCTION loop():
+    READ analog voltage from sensorPin (A0)
+    STORE as adcValue (0-1023 range)
+
+    CALCULATE voltage = adcValue × (5.0 ÷ 1023.0) // Converts 10-bit digital value to actual voltage
+    CALCULATE tempC = (voltage - 0.5) × 100.0 // Get temperature
+
+    IF tempC > 28.0 THEN
+        TURN ON ledPin (set HIGH)
+    ELSE
+        TURN OFF ledPin (set LOW)
+    END IF
+
+    PRINT tempC to Serial Monitor
+
+    WAIT 500 milliseconds
+
+    REPEAT (loop automatically repeats)
+END FUNCTION
