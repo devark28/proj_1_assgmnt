@@ -1,0 +1,29 @@
+~/Documents/c_programming/proj_1_assgmnt/question_2 git:[main]
+./main
+
+=== Simple Calculator Menu ===
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice (1-5): 1
+Enter first number: 23
+Enter second number: 3.14
+23.00 + 3.14 = 26.14
+
+do you want to do another calculation? (y/n): y
+
+=== Simple Calculator Menu ===
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice (1-5): 4
+Enter first number: 2
+Enter second number: 0
+cannot divide by zero!
+
+do you want to do another calculation? (y/n): n
+thanks for using the calculator
