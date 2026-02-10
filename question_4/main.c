@@ -17,7 +17,7 @@ void loop()
     // remove the base/offset voltage, multiply 100 to celcius range
     float tempC = (voltage - 0.5) * 100.0;
 
-    // if temp gt ambient temperature
+    // if temp greater than ambient temperature
     if (tempC > 28.0) {
         digitalWrite(ledPin, HIGH);
     } else {
