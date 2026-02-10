@@ -1,0 +1,8 @@
+## Question 1:
+- **Real-world application:** C is used in operating system programming. With examples like Linux kernel and Windows being the most prominent. This use of C is majorly because of its low-level memory access and hardware control while maintaining portability across different architectures. C is widely used in places where performance and direct hardware interaction are critical.
+- **Syntax error vs Semantic error:** Syntax error occurs when some code doesn’t follow the grammatical rules of C language. An example is forgetting a semicolon or mismatched brackets, and this prevents the program from compiling. Semantic error on the other hand, occurs when code is grammatically correct but doesn’t do what it's intended to do. An example is using the wrong formula or variable. The program compiles, but the results it produces will be incorrect.
+- **Stages of C compilation:**
+  - **_Preprocessing:_** in this stage the preprocessor handles directives like #include and #define, removes comments, expands macros, and includes header files. The Output is an expanded *.i source file with all preprocessor directives resolved.
+  - _**Compilation:**_ in this stage the compiler translates preprocessed c code into assembly language specific to the target processor. The output is an *.s assembly code file.
+  - **_Assembly:_** the assembler converts assembly language instructions into machine code *.o file. The output of this stage is a *.o object file containing machine instructions.
+  - **_Linking:_** This is the final stage where the object file is combined with library functions and resolved external references to create the final executable. The output of this stage is an executable file without an extension.
