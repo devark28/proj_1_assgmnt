@@ -1,0 +1,13 @@
+~/Documents/c_programming/proj_1_assgmnt/question_3 git:[main]
+./main
+================================
+math functions
+================================
+
+1. calculate factorial
+2. calculate power
+Enter choice: 2
+enter base: 2
+Enter exponent: 2
+2^2 = 4
+================================
